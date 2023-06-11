@@ -1,0 +1,64 @@
+body {
+    font-family: 'Cinzel', serif;
+    background-color: #232931;
+}
+
+.dark-mode {
+    color: white;
+    background-color: #232931;
+}
+
+i {
+    position: absolute;
+    top: 30px;
+    left: 95%;
+    font-size: 30px;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+img {
+    height: auto;
+    max-width: 100%; 
+}
+
+.search-box {
+    padding: 50px;
+}
+
+input {
+    font-size: 19px;
+    padding: 12px 20px 12px 20px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.1);
+}
+
+#pokemon {
+    text-align: center ;
+}
+
+#search {
+    padding: 10px;
+    border: none;
+    background-color: #232931;
+    font-size: 20px;
+}
+
+#search:hover {
+    cursor: pointer;
+}
+
+#description {
+    text-align: center;
+}
